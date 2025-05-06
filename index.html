@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body class="bg-[#161513]">
+    <header class="bg-[#1e1e1e] text-white">
+        <section class="wrapper flex justify-between items-center h-[90px] px-4 lg:px-10">
+            <h1>
+                <img src="images/logo.png" alt="logo" class="w-[90px]">
+            </h1>
+            
+            <button id="menu-toggle" class="lg:hidden focus:outline-none">
+                <svg class="h-6 w-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7" />
+                </svg>
+            </button>
+            
+            <ul id="menu" class="hidden lg:flex lg:justify-between lg:items-center lg:space-x-10">
+                <li><a href="#" class="text-[16px] font-semibold hover:text-gray-400">Home</a></li>
+                <li><a href="#" class="text-[16px] font-semibold hover:text-gray-400">Projects</a></li>
+                <li><a href="#" class="text-[16px] font-semibold hover:text-gray-400">Experience</a></li>
+                <li><a href="#" class="text-[16px] font-semibold hover:text-gray-400">Contact</a></li>
+            </ul>
+        </section>
+       
+        <ul id="mobile-menu" class="hidden bg-black mt-4 rounded-xl px-4 py-2 flex flex-col space-y-2 lg:hidden">
+            <li><a href="#" class="text-[16px] font-semibold text-white hover:text-gray-700">Home</a></li>
+            <li><a href="#" class="text-[16px] font-semibold text-white hover:text-gray-700">Projects</a></li>
+            <li><a href="#" class="text-[16px] font-semibold text-white hover:text-gray-700">Experience</a></li>
+            <li><a href="#" class="text-[16px] font-semibold text-white hover:text-gray-700">Contact</a></li>
+        </ul>
+    </header>
+    
+    
+    <section class="py-20 text-white">
+        <section class="wrapper">
+            <div class="flex justify-center mb-10">
+                <img src="images/avatar.png" alt="avatar" class="w-[180px]">
+            </div>
+            <h1 class="text-center font-bold text-[32px] md:text-[56px] leading-tight mb-10">I do code and <br> make content <span class="bg-gradient-to-br from-orange-400 to bg-purple-600 text-transparent bg-clip-text">about it!</span></h1>
+            <p class="text-[14px] font-normal text-center md:w-[50%] m-auto  mb-10 opacity-50">I am a seasoned full-stack software engineer with over 8 year of professional experience,specializing in backend devlopment.My expertise lies in crafting robust and scalable SaaS-based architectures on the amazon AWS platform.</p>
+            <div class="flex justify-center">
+                <a href="#" class="py-3 px-6 bg-white rounded-full text-black mr-5">Get In Touch</a>
+                <a href="#" class="border border-white py-3 px-6 rounded-full">Download CV</a>
+            </div>
+        </section>
+    </section>
+    <section class="pb-20">
+        <section class="wrapper">
+            <h1 class="text-center text-[32px] font-semibold text-white opacity-70">EXPERIENCE WITH</h1>
+            <div class="flex justify-center items-center mt-10">
+                <img src="images/javascript.png" alt="image" class="w-[40px] mr-10">
+                <img src="images/nodejs.png" alt="image" class="w-[40px] mr-10">
+                <img src="images/html.png" alt="image" class="w-[40px] mr-10">
+                <img src="images/css.png" alt="image" class="w-[40px] mr-10">
+                <img src="images/reactjs.png" alt="image" class="w-[40px]">
+            </div>
+        </section>
+    </section>
+    <section class="pb-20">
+        <section class="wrapper px-4 lg:px-10">
+            <h1 class="text-center text-[32px] font-semibold bg-gradient-to-b from-orange-400 to-orange-600 text-transparent bg-clip-text">
+                PROJECTS
+            </h1>
+            <div class="flex flex-col lg:flex-row justify-center items-center mt-10 space-y-6 lg:space-y-0 lg:space-x-10 text-white">
+               
+                <div class="w-full lg:w-[35%] bg-[#1e1e1e] rounded-2xl overflow-hidden shadow-lg">
+                    <img src="images/html-project.png" alt="HTML Project" class="w-full">
+                    <div class="flex justify-between items-center p-4">
+                        <div>
+                            <h3 class="text-[12px] font-semibold opacity-70">CLICK HERE TO VISIT</h3>
+                            <h1 class="text-[16px] font-semibold">HTML TUTORIALS</h1>
+                        </div>
+                        <img src="images/arrow.png" alt="arrow" class="w-[18px]">
+                    </div>
+                </div>
+              
+                <div class="w-full lg:w-[35%] bg-[#1e1e1e] rounded-2xl overflow-hidden shadow-lg">
+                    <img src="images/css-project.png" alt="CSS Project" class="w-full">
+                    <div class="flex justify-between items-center p-4">
+                        <div>
+                            <h3 class="text-[12px] font-semibold opacity-70">CLICK HERE TO VISIT</h3>
+                            <h1 class="text-[16px] font-semibold">CSS TUTORIALS</h1>
+                        </div>
+                        <img src="images/arrow.png" alt="arrow" class="w-[18px]">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+    
+    <section class="pb-20">
+        <section class="wrapper">
+            <h1 class="text-center text-[32px] font-semibold bg-gradient-to-b from-[#4aa0f4] to-[#2581db] text-transparent bg-clip-text mb-10">EXPERIENCE</h1>
+            <div class="mb-10">
+                <div class="flex justify-between items-center text-white">
+                    <div class="flex justify-start items-center mb-5">
+                        <img src="images/google-logo.png" alt="logo" class="w-[25px] mr-5">
+                        <h3 class="sm:text-[24px] font-bold">Lead Software Engineer at Google</h3>
+                    </div>
+                    <p class="text-[14px] font-normal opacity-60">Nov 2019 - Present</p>
+                </div>
+                <p class="text-[16px] font-normal text-white opacity-60">As a Senior Software Engineer at Google, I played a pivotal role in developing innovative solutions for Google's core search algorithms. Collaborating with a dynamic team of engineers, I contributed to the enhancement of search accuracy and efficiency, optimizing user experiences for millions of users worldwide.</p>
+            </div>
+            <div class="mb-10">
+                <div class="flex justify-between items-center text-white">
+                    <div class="flex justify-start items-center mb-5">
+                        <img src="images/apple-logo.png" alt="logo" class="w-[25px] mr-5">
+                        <h3 class="sm:text-[24px] font-bold">Junior Software Engineer at Apple</h3>
+                    </div>
+                    <p class="text-[14px] font-normal opacity-60">Jan 2016 - Dec 2017</p>
+                </div>
+                <p class="text-[16px] font-normal text-white opacity-60">During my tenure at Apple, I held the role of Software Architect, where I played a key role in shaping the architecture of mission-critical software projects. Responsible for designing scalable and efficient systems, I provided technical leadership to a cross-functional team.</p>
+            </div>
+            <div>
+                <div class="flex justify-between items-center text-white">
+                    <div class="flex justify-start items-center mb-5">
+                        <img src="images/meta-logo.png" alt="logo" class="w-[25px] mr-5">
+                        <h3 class="sm:text-[24px] font-bold">Software Engineer at Meta</h3>
+                    </div>
+                    <p class="text-[14px] font-normal opacity-60">Jan 2017 - Oct 2019</p>
+                </div>
+                <p class="text-[16px] font-normal text-white opacity-60">At Meta, I served as a Software Engineer, focusing on the design and Implementation of backend systems for the social media giant's dynamic platform. Working on projects that involved large-scale data processing and user engagement features, I leveraged my expertise to ensure seamless functionality and scalability.</p>
+            </div>
+    </section>
+    </section>
+    <footer class="py-20 bg-[#1e1e1e] text-white">
+        <section class="wrapper">
+            <h1 class="text-[32px] font-semibold m-10">Contact</h1>
+            <p class="text-[16px] font-normal text-white opacity-60">Seasoned Full Stack Software Engineer with over 8 years of hands-on experience in designing and implementing robust, scalable, and <br> innovative web solutions. Adept at leveraging a comprehensive skill set encompassing front-end and back-end technologies</p>
+            <div class="flex justify-start items-center my-10">
+                <img src="images/email.png" alt="email" class="w-[16px] mr-1">
+                <p class="text-[16px] font-normal text-white opacity-70">tegrand@example.com</p>
+            </div>
+            <div class="flex justify-start items-center">
+                <img src="images/instagram.png" alt="image" class="w-[16px] mr-4">
+                <img src="images/x.png" alt="image" class="w-[16px] mr-4">
+                <img src="images/youtube.png" alt="image" class="w-[16px] mr-4">
+            </div>
+        </section>
+    </footer>
+
+
+    <script>
+        // JavaScript for toggling the mobile menu
+        const menuToggle = document.getElementById('menu-toggle');
+        const mobileMenu = document.getElementById('mobile-menu');
+    
+        menuToggle.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+    </script>
+</body>
+</html>
